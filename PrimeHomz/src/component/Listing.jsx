@@ -19,7 +19,7 @@ const Listing = () => {
         </div>
       
       </div>
-      <div className='h-screen w-screen grid grid-cols-3 cursor-pointer px-5'>
+      <div className='h-[75vh] w-screen grid grid-cols-3 cursor-pointer px-5'>
         <div className='h-100 w-full'>
           <img className='h-full w-full' src="https://cdn.prod.website-files.com/6814fd6e7e1d7b88832c570c/681f30291cb42df385279ff2_property02.webp" alt="" />
         <div class="p-4 space-y-3">
