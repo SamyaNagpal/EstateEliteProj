@@ -164,7 +164,7 @@ const Listing = () => {
 </div>
         <div className='h-100 w-full'>
           <img src="https://cdn.prod.website-files.com/6814fd6e7e1d7b88832c570c/6822f4845fb1ff94d8c7ecc7_property04.webp" alt="" />
-       <div class="p-4 space-y-3 w-fit">
+       <div class="p-4 space-y-3 w-full">
     <div class="flex items-center space-x-6 text-[#323628] text-sm font-medium">
       <div class="flex items-center gap-1">
         <span class="text-xl"><IoBedOutline /></span>
@@ -179,7 +179,7 @@ const Listing = () => {
         <span>1000 spft</span>
       </div>
     </div>
-    <div class="flex items-center justify-between">
+   <div class="flex items-center justify-between">
       <h3 class="text-2xl font-semibold text-[#323628]">Cedar Grove</h3>
       <button class="border border-[#d2d2c6] rounded-full px-4 py-1 text-sm font-medium text-[#323628] hover:bg-[#e9e9dc] transition">
         VIEW
