@@ -17,32 +17,31 @@ const Home = () => {
         <div className="h-[50vh] w-[48vw] space-y-4 ml-14">
           
           {/* Badge */}
-          <p className="uppercase p-2 bg-white/20 backdrop-blur-xs w-[13vw] rounded-3xl border border-white text-white">
-            award-winning firm
+          <p className="uppercase p-2 tracking-wide bg-white/20 backdrop-blur-xs w-fit rounded-3xl border border-white text-white">
+            Verified Experts
           </p>
 
           {/* Headings */}
           <h1 className="text-white font-[montserrat] text-6xl font-medium tracking-tight">
-            <span className="font-[windsong]">Creating</span> Spaces That
+            <span className="font-[windsong]">Connecting</span> People With Homes That
           </h1>
-          <h1 className="text-white font-[montserrat] text-6xl font-medium tracking-tight">
-            Inspire Modern World
-          </h1>
+          <h1 className="text-white font-[montserrat] text-6xl font-medium tracking-tight" >    
+            Match Their  <span className="font-[windsong]">Modern</span> Lifestyle
+          </h1> 
 
           {/* Description */}
           <p className="text-white/90 text-xl tracking-tight font-[montserrat]">
-            Award-winning architectural design firm specializing in creating
-            innovative and sustainable spaces that transform how people live,
-            work, and play.
+            Top-rated real estate brokerage firm dedicated to helping clients find, buy, or invest
+             in properties that truly reflect their goals, lifestyle, and vision for the future.
           </p>
 
           {/* Buttons */}
           <div>
-            <button className="px-3 py-3 bg-white rounded-xl mt-3 text-sm font-[montserrat] font-medium">
-              Explore Projects
+            <button className="px-3 py-3 cursor-pointer bg-white rounded-xl mt-3 text-sm font-[montserrat] font-medium">
+              Browse Listings
             </button>
-            <button className="px-3 py-3 bg-black/50 text-white text-sm font-[montserrat] ml-4 rounded-xl mt-3 font-medium">
-              Get In Touch
+            <button className="px-3 py-3 cursor-pointer bg-black/50 text-white text-sm font-[montserrat] ml-4 rounded-xl mt-3 font-medium">
+              Connect With an Agent
             </button>
           </div>
 

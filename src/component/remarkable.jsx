@@ -14,8 +14,8 @@ const Remarkable = () => {
       
 
       <div className="right space-y-4">
-        <h1 className='text-white text-xl font-normal tracking-tight leading-tight'>We are committed to purposeful design and development that fosters positive change, growth, and progress to uplift our communities.</h1>
-        <h1 className='text-white text-xl font-normal tracking-tight leading-tight'> We aim to create micro communities that enrich and empower our neighborhoods, recognizing the potential in every space.</h1>
+        <h1 className='text-white text-xl font-normal tracking-tight leading-tight'>Prime Homz provides safe and healthy accommodations for urban millennials. We’ve stringent cleanliness measures in place to get you the highest hygiene standards.  </h1>
+        <h1 className='text-white text-xl font-normal tracking-tight leading-tight'>our smartly designed interiors to enable work-play balance will ensure that you absolutely love each moment spent at The Beehive.</h1>
         <button className='uppercase mt-14 py-3 px-6   bg-transparent text-white border rounded-4xl border-white' >contact us</button>
       </div>
 
@@ -27,3 +27,8 @@ const Remarkable = () => {
 }
 
 export default Remarkable
+
+
+
+
+
