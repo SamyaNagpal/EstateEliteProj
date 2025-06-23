@@ -10,7 +10,7 @@ const Navbar = () => {
             <img src="./logo-nav.png" alt="" className='w-32 ml-6' />
         </div>
 
-        <div className='flex justify-end items-center h-full w-fit text-md font-medium font-[Montserrat] gap-x-12 px-9'> 
+        <div className='flex justify-end items-center h-full w-fit text-lg font-medium gap-x-12 px-9'> 
           <Link to="#">Properties</Link>
           <Link to="#">services</Link>
           <Link to="#">About us</Link>
