@@ -4,8 +4,11 @@ import Home from './component/Home'
 import Listing from './component/Listing'
 import Articles from './component/Articles'
 import Footer from './component/Footer'
-import AboutUs from './component/AboutUs'
+
 import WhyChoose from './component/WhyChoose'
+import Contact from './component/Contact'
+import About from './component/About'
+import Remarkable from './component/remarkable'
 
 const App = () => {
   return (
@@ -15,6 +18,10 @@ const App = () => {
       <Listing/>
       <WhyChoose/>
       <Articles/>
+      <blog/>
+      <About/>
+      <Contact/>
+      <Remarkable/>
       <Footer/>
     </div>
   )

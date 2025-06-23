@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="pt-23">
       {/* Background Section */}
-      <div className="h-[95vh] w-[95vw] mx-[2vw] rounded-2xl bg-[url(/home.png)] bg-cover bg-no-repeat bg-[center_42%] pt-35"> 
+      <div className="h-[95vh] w-[95vw] mx-[2vw] bg-gray-600 rounded-2xl bg-[url(/home.png)] bg-cover bg-no-repeat bg-[center_42%] pt-35"> 
         
         {/* Content Block */}
         <div className="h-[50vh] w-[48vw] space-y-4 ml-14">
