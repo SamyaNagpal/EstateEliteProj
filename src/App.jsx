@@ -9,6 +9,7 @@ import WhyChoose from './component/WhyChoose'
 import Contact from './component/Contact'
 import About from './component/About'
 import Remarkable from './component/remarkable'
+import Blog from './component/Blog'
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <Listing/>
       <WhyChoose/>
       <Articles/>
-      <blog/>
+      <Blog/>
       <About/>
       <Contact/>
       <Remarkable/>
