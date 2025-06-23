@@ -9,6 +9,7 @@ body{
   background-color:#F5F6F1;
   font-family:"geist" ; 
   overflow-x: hidden;
+   scroll-behavior: smooth;
 }
 
 .logo{

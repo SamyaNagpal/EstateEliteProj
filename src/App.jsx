@@ -10,12 +10,16 @@ import About from './component/About'
 import Remarkable from './component/remarkable'
 import Blog from './component/Blog'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import ScrollToTop from './component/ScrollToTop'
 
 const App = () => {
   return (
     <div>
+      
       <BrowserRouter>
+      <ScrollToTop/>
       <Navbar/>
+      
       <Routes>     
       <Route path="/" element={<Home/>} />
 

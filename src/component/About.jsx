@@ -9,9 +9,9 @@ const About = () => {
           Our portfolio of award-winning designs that have transformed skylines
         </h2>
       </div>
-      <div className="h-[86vh] w-[90vw] bg-gray-300 mx-auto my-6 overflow-hidden rounded-lg relative">
+      <div className="h-180 w-320 mx-auto my-6 overflow-hidden relative">
         <img
-          className="w-full h-full object-cover transition-transform duration-500 hover:scale-105 "src="https://primehomz.com/wp-content/uploads/elementor/thumbs/ame2-qp76yjt99pkmemf8clctjmdpkubyyvig7jcioa8xts.jpg"alt=""/>
+          className=" object-cover rounded-2xl transition-transform duration-500  hover:scale-110 "src="https://primehomz.com/wp-content/uploads/elementor/thumbs/ame2-qp76yjt99pkmemf8clctjmdpkubyyvig7jcioa8xts.jpg"alt=""/>
 
         <div className="absolute top-5 left-5 flex space-x-3">
 
