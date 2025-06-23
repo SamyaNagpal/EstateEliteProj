@@ -6,7 +6,7 @@ import Articles from './component/Articles'
 import Footer from './component/Footer'
 
 import WhyChoose from './component/WhyChoose'
-import Contact from './component/Contact'
+// import Contact from './component/Contact'
 import About from './component/About'
 import Remarkable from './component/remarkable'
 import Blog from './component/Blog'
@@ -21,7 +21,7 @@ const App = () => {
       <Articles/>
       <Blog/>
       <About/>
-      <Contact/>
+      {/* <Contact/> */}
       <Remarkable/>
       <Footer/>
     </div>
