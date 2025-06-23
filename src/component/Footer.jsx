@@ -14,7 +14,7 @@ export default function Footer() {
               {/* <ChevronRight className="w-5 h-5 text-gray-600" /> */}
             </div>
             <p className="text-gray-600 text-lg">
-              +91 892059 4962 <br />
+              +91 89205 94962 <br />
               info@primehomz.com
             </p>
           </div>
