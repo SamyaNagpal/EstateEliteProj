@@ -10,31 +10,22 @@ export default function Footer() {
           {/* Canada Location */}
           <div className="space-y-2">
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-medium text-gray-900">Canada</h3>
+              <h3 className="text-xl font-medium text-gray-900">Gurgaon</h3>
               {/* <ChevronRight className="w-5 h-5 text-gray-600" /> */}
             </div>
-            <p className="text-gray-600 text-sm">
-              140 Toronto Street, Toronto, XC
-              <br />
-              123 0R5
+            <p className="text-gray-600 text-lg">
+              +91 892059 4962 <br />
+              info@primehomz.com
             </p>
           </div>
 
-          {/* United States Location */}
-          <div className="space-y-2">
-            <div className="flex items-center justify-between">
-              <h3 className="text-lg font-medium text-gray-900">United states</h3>
-              {/* <ChevronRight className="w-5 h-5 text-gray-600" /> */}
-            </div>
-            <p className="text-gray-600 text-sm">
-              140 Toronto Street, Toronto, XC
-              <br />
-              123 0R5
-            </p>
-          </div>
+          
+          <div >
+           
+          </div> 
 
           {/* Newsletter Subscription */}
-          <div className="space-y-4">
+          <div className="  space-y-4">
             <h3 className="text-lg font-medium text-gray-900">Subscribe our newsletter</h3>
             <div className="flex gap-2">
               <div className="relative flex-1">
@@ -42,10 +33,10 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="pl-10 bg-white border-gray-200 focus:border-gray-400"
+                  className="pl-4 pr-8 bg-white border-gray-200 focus:border-gray-400"
                 />
               </div>
-              <button className="bg-gray-800 hover:bg-gray-900 text-white px-6">Subscribe</button>
+              <button className="bg-gray-800 hover:bg-gray-900 rounded-2xl text-white px-6">Subscribe</button>
             </div>
           </div>
         </div>
@@ -61,26 +52,21 @@ export default function Footer() {
               About Us
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Home V.2
+              articles
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
               Property
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Home V.3
+              Contact Us
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
               Blog
             </a>
             <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Shop
+              Services
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Contact Us
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              License
-            </a>
+            
           </div>
         </div>
       </div>
@@ -99,8 +85,8 @@ export default function Footer() {
 
           {/* Contact Email */}
           <div className="absolute left-52 bottom-0 flex items-center justify-center">
-            <h2 className="text-4xl md:text-6xl lg:text-7xl text-white text-center">
-              contact@primzhomes.com
+            <h2 className="text-4xl md:text-6xl ml-30 lg:text-7xl text-white text-center">
+              info@primehomz.com
             </h2>
           </div>
         </div>

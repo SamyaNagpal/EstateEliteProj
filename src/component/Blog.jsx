@@ -4,8 +4,8 @@ const Blog = () => {
   return (
     <div className='BG min-h-[145vh] m-15 mt-32'>
   <div className="space-y-3">
-    <h1 className="text-6xl text-blue-950 text-center pt-5">Blog Posts</h1>
-    <h2 className="text-xl text-gray-500 text-center">
+    <h1 className="text-6xl  text-center pt-5">Posts</h1>
+    <h2 className="text-xl  text-center">
       Connecting you with the perfect property for every need
     </h2>
   </div>
@@ -16,7 +16,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog1.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="AI Business"
         />
       </div>
@@ -30,7 +30,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog2.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="Home Buying"
         />
       </div>
@@ -44,7 +44,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog3.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="Rent vs Own"
         />
       </div>
@@ -58,7 +58,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog4.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="Step-by-step"
         />
       </div>
@@ -72,7 +72,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog2.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="Smart Homes"
         />
       </div>
@@ -86,7 +86,7 @@ const Blog = () => {
       <div className="overflow-hidden rounded-2xl">
         <img
           className="w-full h-60 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-          src="blog5.avif"
+          src="https://primehomz.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2022-07-23-at-3.23.50-PM-pvykfkanj4j0vxdimuhlrzrlxr7lr17vdnxiklm4w0.jpeg"
           alt="Sustainable Architecture"
         />
       </div>

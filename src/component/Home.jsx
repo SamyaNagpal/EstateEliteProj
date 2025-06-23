@@ -1,5 +1,11 @@
 import React from 'react'
 import { Star } from 'lucide-react'
+import Listing from './Listing'
+import WhyChoose from './WhyChoose'
+import Articles from './Articles'
+import Blog from './Blog'
+import About from './About'
+import Remarkable from './remarkable'
 
 const Home = () => {
   return (
@@ -11,7 +17,7 @@ const Home = () => {
         <div className="h-[50vh] w-[48vw] space-y-4 ml-14">
           
           {/* Badge */}
-          <p className="uppercase px-3 py-1 bg-white/20 backdrop-blur-xs w-[13vw] rounded-3xl border border-white text-white">
+          <p className="uppercase p-2 bg-white/20 backdrop-blur-xs w-[13vw] rounded-3xl border border-white text-white">
             award-winning firm
           </p>
 
@@ -63,6 +69,14 @@ const Home = () => {
       
 
       </div>
+      <Listing/>
+      <WhyChoose/>
+      <Articles/>
+      <Blog/>
+      <About/>
+      {/* <Contact/> */}
+      <Remarkable/>
+      
     </div>
   )
 }

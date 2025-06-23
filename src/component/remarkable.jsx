@@ -10,7 +10,7 @@ const Remarkable = () => {
       <div className="lower-div h-[60vh] w-[78vw] mt-17 grid grid-cols-[57%_38%] gap-[5%] ">
 
       
-        <img className='h-full w-45vw object-cover rounded-3xl' src="/remarkable image.webp" alt="" />
+        <img className='h-full w-45vw object-cover rounded-3xl' src="https://cdn.prod.website-files.com/6814fd6e7e1d7b88832c570c/6822f34fb301a0079eed1ae6_property03.webp"alt="" />
       
 
       <div className="right space-y-4">
