@@ -73,7 +73,6 @@ const Home = () => {
       <Articles/>
       <Blog/>
       <About/>
-      {/* <Contact/> */}
       <Remarkable/>
       
     </div>
