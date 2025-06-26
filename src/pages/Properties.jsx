@@ -48,13 +48,10 @@ const properties = [
 
 const Properties = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#f0f4f8] via-white to-[#f0f4f8] py-20 px-6">
-      <div className="text-center mb-12">
-        <h2 className="text-4xl font-extrabold text-gray-900">Explore Properties</h2>
-        <p className="text-gray-600 mt-2">
-          Curated collection of high-end residences for modern living
-        </p>
-      </div>
+    <section className="min-h-screen bg-gradient-to-br from-[#f0f4f8] via-white to-[#f0f4f8] py-24 px-6">
+      <div className="text-center mb-10">
+        <h2 className="text-5xl font-bold text-gray-800">Explore Properties</h2>
+            </div>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {properties.map((property) => (
@@ -72,12 +69,12 @@ const Properties = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">{property.title}</h3>
                 <p className="text-gray-500">{property.location}</p>
-                <p className="mt-2 text-lg font-bold text-indigo-600">{property.price}</p>
+                <p className="mt-2 text-lg font-bold text-gray-800">{property.price}</p>
               </div>
               <div className="mt-4">
                 <Link
                   to={`/properties/${property.id}`}
-                  className="block text-center w-full px-4 py-2 text-sm bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+                  className="block text-center w-full px-4 py-2 text-sm bg-gray-700 text-white rounded-lg hover:bg-gray-900 transition"
                 >
                   View Details
                 </Link>

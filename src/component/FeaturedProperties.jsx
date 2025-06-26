@@ -29,13 +29,13 @@ const FeaturedProperties = () => {
     <section className="py-20 bg-white">
       <div className="text-center mb-12">
         <h2
-          className="text-4xl font-semibold text-gray-800"
+          className="text-5xl font-semibold text-gray-800"
           data-aos="fade-up"
         >
           Featured Properties
         </h2>
         <p
-          className="mt-2 text-gray-500"
+          className="mt-2 text-gray-700"
           data-aos="fade-up"
           data-aos-delay="100"
         >

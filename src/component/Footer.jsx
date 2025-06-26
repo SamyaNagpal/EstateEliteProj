@@ -5,15 +5,15 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
-        {/* Brand */}
+        
         <div>
           <h2 className="text-2xl font-bold mb-4">EstateElite</h2>
           <p className="text-gray-400 text-sm">
-            Bringing you premium properties across India, where luxury meets comfort.
+            Where luxury meets comfort
           </p>
         </div>
 
-        {/* Quick Links */}
+        
         <div>
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
@@ -24,15 +24,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact */}
+      
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact</h3>
           <p className="text-gray-400 text-sm">Gurgaon, India</p>
-          <p className="text-gray-400 text-sm mt-1">+91 98765 43210</p>
+          <p className="text-gray-400 text-sm mt-1">+9123456XXXX</p>
           <p className="text-gray-400 text-sm mt-1">info@estateelite.in</p>
         </div>
 
-        {/* Social */}
+       
         <div>
           <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4 text-gray-400">
