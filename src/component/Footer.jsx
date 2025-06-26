@@ -1,117 +1,53 @@
+import React from "react";
 
-// import { ChevronRight, Mail } from "lucide-react"
-
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer >
-      {/* Top Section - Locations and Newsletter */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-          {/* Canada Location */}
-          <div className="space-y-2">
-            <div className="flex items-center justify-between">
-              <h3 className="text-xl font-medium text-gray-900">Gurgaon</h3>
-              {/* <ChevronRight className="w-5 h-5 text-gray-600" /> */}
-            </div>
-            <p className="text-gray-600 text-lg">
-              +91 89205 94962 <br />
-              info@primehomz.com
-            </p>
-          </div>
+    <footer className="bg-gray-900 text-white py-12 px-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
-          
-          <div >
-           
-          </div> 
-
-          {/* Newsletter Subscription */}
-          <div className="  space-y-4">
-            <h3 className="text-lg font-medium text-gray-900">Subscribe our newsletter</h3>
-            <div className="flex gap-2">
-              <div className="relative flex-1">
-                {/* <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" /> */}
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="pl-4 pr-8 bg-white border-gray-200 focus:border-gray-400"
-                />
-              </div>
-              <button className="bg-gray-800 hover:bg-gray-900 rounded-2xl text-white px-6">Subscribe</button>
-            </div>
-          </div>
+        {/* Brand */}
+        <div>
+          <h2 className="text-2xl font-bold mb-4">EstateElite</h2>
+          <p className="text-gray-400 text-sm">
+            Bringing you premium properties across India, where luxury meets comfort.
+          </p>
         </div>
 
-        {/* Menu Section */}
-        <div className="mb-16">
-          <h3 className="text-2xl font-medium text-gray-900 mb-6 pb-2 border-b border-gray-200">Menu</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-3">
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Home
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              About Us
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              articles
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Property
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Contact Us
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Blog
-            </a>
-            <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Services
-            </a>
-            
+        {/* Quick Links */}
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+          <ul className="space-y-2 text-gray-400 text-sm">
+            <li><a href="/" className="hover:text-white transition">Home</a></li>
+            <li><a href="/properties" className="hover:text-white transition">Properties</a></li>
+            <li><a href="/about" className="hover:text-white transition">About Us</a></li>
+            <li><a href="/contact" className="hover:text-white transition">Contact</a></li>
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Contact</h3>
+          <p className="text-gray-400 text-sm">Gurgaon, India</p>
+          <p className="text-gray-400 text-sm mt-1">+91 98765 43210</p>
+          <p className="text-gray-400 text-sm mt-1">info@estateelite.in</p>
+        </div>
+
+        {/* Social */}
+        <div>
+          <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+          <div className="flex space-x-4 text-gray-400">
+            <a href="#" className="hover:text-white">Instagram</a>
+            <a href="#" className="hover:text-white">LinkedIn</a>
+            <a href="#" className="hover:text-white">X</a>
           </div>
         </div>
       </div>
 
-      {/* Bottom Section with Background Image */}
-      <div className="relative m-10">
-        {/* Background Image */}
-        <div
-          className="h-52 bg-cover bg-center relative"
-          style={{
-            backgroundImage: `url('https://cdn.prod.website-files.com/6814fc6232b8cad8fad482b3/6824284de789999fbdfc417d_Hero%20Thumb.webp')`,
-          }}
-        >
-          {/* Dark overlay for better text readability */}
-          <div className="absolute inset-0  bg-opacity-30"></div>
-
-          {/* Contact Email */}
-          <div className="absolute left-52 bottom-0 flex items-center justify-center">
-            <h2 className="text-4xl md:text-6xl ml-30 lg:text-7xl text-white text-center">
-              info@primehomz.com
-            </h2>
-          </div>
-        </div>
-
-        {/* Copyright and Social Links */}
-        {/* <div className="bg-gray-50 px-4 py-6">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-600">© De Colorado 2025. All Rights Reserved. Powered by Webflow</p>
-            <div className="flex gap-3">
-              <button variant="outline" size="sm" className="text-gray-600 border-gray-300 hover:bg-gray-100">
-                Instagram
-              </button>
-              <button variant="outline" size="sm" className="text-gray-600 border-gray-300 hover:bg-gray-100">
-                Facebook
-              </button>
-              <button variant="outline" size="sm" className="text-gray-600 border-gray-300 hover:bg-gray-100">
-                Youtube
-              </button>
-              <button variant="outline" size="sm" className="text-gray-600 border-gray-300 hover:bg-gray-100">
-                Tiktok
-              </button>
-            </div>
-          </div>
-        </div> */}
+      <div className="text-center text-gray-600 text-sm mt-12 border-t border-gray-700 pt-6">
+        © {new Date().getFullYear()} EstateElite. All rights reserved.
       </div>
     </footer>
-  )
-}
+  );
+};
+
+export default Footer;

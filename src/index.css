@@ -10,6 +10,9 @@ body{
   font-family:"geist" ; 
   overflow-x: hidden;
    scroll-behavior: smooth;
+  
+  @apply bg-gradient-to-br from-[#fdfbfb] via-[#ebedee] to-[#dfe6ec] text-gray-800;
+
 }
 
 .logo{

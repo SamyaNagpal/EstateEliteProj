@@ -1,26 +1,64 @@
-import React from 'react'
-import { IoIosMenu } from "react-icons/io";
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className='h-20 mx-[2vw] z-50 fixed w-[95vw] bg-white/40 backdrop-blur-sm border border-white rounded-2xl flex items-center justify-between my-2 '>
+    <nav className="bg-white shadow-md py-4 px-6 fixed top-0 w-full z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <Link to="/" className="text-2xl font-extrabold text-gray-800 tracking-wide">
+         EstateElite
+        </Link>
 
-        <div className='w-32  hover:cursor-pointer'>
-            <img src="./logo-nav.png" alt="" className='w-32 ml-6' />
+        {/* Navigation Links */}
+        <div className="flex gap-8 text-gray-600 font-medium text-sm">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `hover:text-indigo-600 transition ${
+                isActive ? "text-indigo-600 font-semibold" : ""
+              }`
+            }
+          >
+            Home
+          </NavLink>
+
+          <NavLink
+            to="/properties"
+            className={({ isActive }) =>
+              `hover:text-indigo-600 transition ${
+                isActive ? "text-indigo-600 font-semibold" : ""
+              }`
+            }
+          >
+            Properties
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `hover:text-indigo-600 transition ${
+                isActive ? "text-indigo-600 font-semibold" : ""
+              }`
+            }
+          >
+            About
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              `hover:text-indigo-600 transition ${
+                isActive ? "text-indigo-600 font-semibold" : ""
+              }`
+            }
+          >
+            Contact
+          </NavLink>
         </div>
+      </div>
+    </nav>
+  );
+};
 
-        <div className='flex justify-end items-center h-full w-fit text-lg font-medium gap-x-12 px-9'> 
-          <Link to="#">Properties</Link>
-          <Link to="#">Services</Link>
-          <Link to="#">About us</Link>
-          <Link to="#">Contact us</Link>
-          <Link to="#">Blog</Link>
-        </div>
-
-        </div>
-
-  )
-}
-
-export default Navbar
+export default Navbar;
